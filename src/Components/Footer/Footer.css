@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap');
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 1px solid rgb(147, 147, 147); */
+    height: 70px;
+}
+
+.footerName {
+    color: rgb(3, 121, 137);
+    font-size: 1.5em;
+    font-family: 'Barlow Condensed', sans-serif;
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-shadow: -0.05em 0.05em 0 rgb(248, 54, 226);
+}
+
+.footerName:hover {
+    color: rgb(2, 84, 94);
+    font-size: 1.5em;
+    font-family: 'Barlow Condensed', sans-serif;
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-shadow: -0.05em 0.05em 0 rgb(248, 54, 226);
+}
+
+.footerNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70vw;
+    align-items: center;
+}
+
+.upArrow {
+    font-size: 1.2em;
+}

@@ -1,0 +1,14 @@
+
+.wordPage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid grey;
+    padding: 50px;
+    background-color: rgba(236, 235, 235, 0.961);
+}
+
+.wordList {
+    /* padding: 50px; */
+    border: 1px solid white;
+}

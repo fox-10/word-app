@@ -1,0 +1,17 @@
+.cardPage {
+    display:flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(236, 235, 235, 0.961);
+
+}
+
+.cardInfo {
+    width: 500px;
+    background-color: white;
+    margin: 50px auto 100px auto;
+    padding: 20px;
+    text-align: left;
+}

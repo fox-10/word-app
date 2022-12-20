@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap');
+
+.cardList {
+    width: 35vw;
+    height: 15vw;
+    text-align: center;
+    margin: 20px;
+    font-size: 2em;
+    font-family: 'Barlow Condensed', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: rgba(236, 235, 235, 0.961);
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid purple; */
+}
+
+.cardList:hover {
+    width: 35vw;
+    height: 15vw;
+    text-align: center;
+    margin: 20px;
+    font-size: 2em;
+    font-family: 'Barlow Condensed', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: all 100ms linear;
+    background: rgba(236, 235, 235, 0.961);
+    box-shadow: 0 0 0.6em rgba(148, 148, 234, 0.599);
+    /* border: 1px solid purple; */
+}
+
+.cardList:active {
+    width: 35vw;
+    height: 15vw;
+    text-align: center;
+    margin: 20px;
+    font-size: 2em;
+    font-family: 'Barlow Condensed', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: all 100ms linear;
+    background: rgba(236, 235, 235, 0.961);
+    box-shadow: 0 0 1.5em rgba(148, 148, 234, 0.599);
+    /* border: 1px solid purple; */
+}
+
+
+.cardListButton {
+    margin-top: 20px;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    border: 1px solid gray;
+    /* box-shadow: -2px 2px 0 rgb(238, 142, 238); */
+    background-color: white;
+    font-weight: bold;
+}
+
+.cardListButton:hover {
+    margin-top: 20px;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    /* box-shadow: -2px 2px 0 rgb(239, 72, 239); */
+    border: 1px solid grey;
+    font-weight: bold;
+    transition: all 250ms linear;
+    background-color: rgb(179, 216, 221);
+}
+
+.cardListButton:active {
+    margin-top: 20px;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    /* box-shadow: -2px 2px 0 rgb(239, 72, 239); */
+    border: 1px solid grey;
+    font-weight: bold;
+    transition: all 250ms linear;
+    background-color: rgb(124, 160, 176);
+}
